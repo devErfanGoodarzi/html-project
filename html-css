@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <title>berlin</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container--flex">
+            <h1 class="header__h1">We Are Berlin|</h1>
+        </div>
+    </header>
+
+    <!-- about us -->
+    <section class="about">
+        <div class="container container--flex">
+            <div class="about__img">
+                <img src="img/profile-2.jpg" alt="about" class="about__imgs_img">
+            </div>
+            <div class="about__contact">
+                <h2 class="about__contact_title">About us</h2>
+                <p class="about__contact_content">For instance, whenever I go back to the guest house during the
+                    <b>morning</b>
+                    to copy out the contract,
+                    <b>these gentlemen</b> are always still sitting there eating their breakfasts. I ought to just try
+                    that
+                    witht my boss; I'd get kicked out on the spot.
+                </p>
+                <p class="about__contact_content">
+                    But who knows, maybe that would be the best thing for me. He'd fall right off his desk! And it's a
+                    funny sort of business to be sitting up there at your desk, talking down at your subordinates. I
+                    ought to just try that witht my boss; I'd get kicked out on the spot. But who knows, maybe that
+                    would be the best thing for me. He'd fall right off his desk! And it's a funny sort of business to
+                    be sitting up there at your desk, talking down at your subordinates.
+                </p>
+            </div>
+            <div class="slider">
+                <div class="slider__item">
+                    <div class="slider__item_content">
+                        <h2 class="slider__item_title"> Web Design</h2>
+                        <p class="slider__ite">
+                            Cloud agency follows the latest design standards to deliver a beautiful and functional
+                            digital product.
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item_content">
+                        <h2 class="slider__item_title"> Web Design</h2>
+                        <p class="slider__ite">
+                            Cloud agency follows the latest design standards to deliver a beautiful and functional
+                            digital product.
+                        </p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item_content">
+                        <h2 class="slider__item_title"> Web Design</h2>
+                        <p class="slider__ite">
+                            Cloud agency follows the latest design standards to deliver a beautiful and functional
+                            digital product.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio">
+        <div class="continer">
+            <h2 class="portfolio_title">portfolio</h2>
+            <ul class="portfolio__cetegory">
+                <li class="cate__item"><a href="#" class="cate__a_link">ALL</a></li>
+                <li class="cate__item"><a href="#" class="cate__a_link">Web Design</a></li>
+                <li class="cate__item"><a href="#" class="cate__a_link">Applications</a></li>
+                <li class="cate__item"><a href="#" class="cate__a_link">Development</a>  </li>
+            </ul>
+
+            <div class="portfolio__gallery">
+                <div class="portfolio__gallery_item">
+                    <a href="#" class="gallery__link"><img src="img/work-1.jpg" alt="" class="gallery__img">
+                        <span class="gallery__overlay">
+                            <span class="gallery__overlay_title">
+                                <span class="gallery__overlay_subtitle">Web Design</span>
+                                <h2 class="gallery__h2">Biggest Cover</h2>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="portfolio__gallery_item">
+                    <a href="" class="gallery__link"><img src="img/work-2.jpg" alt="" class="gallery__img">
+                        <span class="gallery__overlay">
+                            <span class="gallery__overlay_title">
+                                <span class="gallery__overlay_subtitle">Photography</span>
+                                <h2 class="gallery__h2">Easy Documentation</h2>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="portfolio__gallery_item">
+                    <a href="" class="gallery__link"><img src="img/work-3.jpg" alt="" class="gallery__img">
+                        <span class="gallery__overlay">
+                            <span class="gallery__overlay_title">
+                                <span class="gallery__overlay_subtitle">Art</span>
+                                <h2 class="gallery__h2">Cup of Coffee</h2>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="portfolio__gallery_item">
+                    <a href="" class="gallery__link"><img src="img/work-4.jpg" alt="" class="gallery__img">
+                        <span class="gallery__overlay">
+                            <span class="gallery__overlay_title">
+                                <span class="gallery__overlay_subtitle">Branding</span>
+                                <h2 class="gallery__h2">Bag Design</h2>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="portfolio__gallery_item">
+                    <a href="" class="gallery__link"><img src="img/work-5.jpg" alt="" class="gallery__img">
+                        <span class="gallery__overlay">
+                            <span class="gallery__overlay_title">
+                                <span class="gallery__overlay_subtitle">Web Design</span>
+                                <h2 class="gallery__h2">Cd Cover</h2>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="portfolio__gallery_item">
+                    <a href="" class="gallery__link"><img src="img/work-6.jpg" alt="" class="gallery__img">
+                        <span class="gallery__overlay">
+                            <span class="gallery__overlay_title">
+                                <span class="gallery__overlay_subtitle">Application</span>
+                                <h2 class="gallery__h2">The Notebook</h2>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact">
+        <div class="container container--flex">
+            <div class="c__info">
+                <h2 class="c__info_title">GET IN TOUCH</h2>
+                <ul class="c__info_ditel">
+                    <li class="c__info_add">1444 S. Alameda Street Los Angeles,</li>
+                    <li class="c__info_stat">California 90021</li>
+                    <li class="c__info_email">hi@berlin.com</li>
+                    <li class="c__info_number">0800 123 456789</li>
+                </ul>
+            </div>
+            <div class="c__form">
+                <h2 class="c__form_title">leave us a message</h2>
+                <form class="form_contact">
+                    <div class="form_flex">
+                    <div class="form_grop">
+                        <input type="text" class="form_control" placeholder="Name">
+                    </div>
+                    <div class="form_grop">
+                        <input type="email" class="form_control" placeholder="Email">
+                    </div>
+                    <div class="form_grop">
+                            <textarea rows="5" class="form_control" placeholder="How can i help you?"></textarea>
+                        </div>
+                </div>
+                <div class="form_grop_bot">
+                       <button class="form_submit">submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer_sosi">
+                <li class="footer_item"><a href="#" class="footer__item_link">facebook</a></li>
+                <li class="footer_item"><a href="#" class="footer__item_link">twitter</a></li>
+                <li class="footer_item"><a href="#" class="footer__item_link">instagram</a></li>
+                <li class="footer_item"><a href="#" class="footer__item_link">google plus</a></li>
+                <li class="footer_item"><a href="#" class="footer__item_link">behance</a></li>
+                <li class="footer_item"><a href="#" class="footer__item_link">dribbble</a></li>
+            </ul>
+            <p class="footer__copy">Copyright © 2018 Berlin, All rights Reserved.</p>
+            <p class="footer__c">Created by tavonline</p> 
+        </div>
+    </footer>
+</body>
+
+</html>
